@@ -12,6 +12,8 @@ another {product} that, in our tests, is {percent}% less likely to {verbed}.
    
    Thank you for your support. 
    Sincerely,
-   {spokeman}
+   {spokesman}
    {job_title}'''
 
+print(letter.format(salutation = 'Mr.', name = 'CHUNG DOO SUNG' ,product = 'RAM', verbed = 'moved', room = 'room', animals = 'cat',
+              amount = 'account', percent = '100', spokesman = 'Nam Su Jin', job_title = 'PHD'))
